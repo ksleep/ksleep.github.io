@@ -3674,7 +3674,7 @@ li.categoryBar-list-item:nth-child(3)>span::after {
   content: '玩转Win10' !important;
 }
 li.categoryBar-list-item:nth-child(4)>span::after {
-  content: 'Ubuntu指南' !important;
+  content: 'Hexo部署教程' !important;
 }
 li.categoryBar-list-item:nth-child(5)>span::after {
   content: '个人日记' !important;
