@@ -3643,7 +3643,7 @@ span.categoryBar-list-count::after {
   right: -100%;
 }
 li.categoryBar-list-item:nth-child(1) {
-  background: url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_2/img/cover1.webp');
+  background: url('http://ghostmask.gitee.io/myimg/Myimg/shanhaizy/21.jpg');
 }
 li.categoryBar-list-item:nth-child(2) {
   background: #abcdef;
@@ -3659,28 +3659,19 @@ li.categoryBar-list-item:nth-child(4) {
   background: linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%);
 }
 li.categoryBar-list-item:nth-child(5) {
-  background: url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_2/img/cover5.webp');
+  background: url('http://ghostmask.gitee.io/myimg/Myimg/shanhaizy/20.jpg');
 }
 li.categoryBar-list-item:nth-child(6) {
-  background: url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_2/img/cover6.webp');
+  background: url('http://ghostmask.gitee.io/myimg/Myimg/shanhaizy/22.jpg');
 }
 li.categoryBar-list-item:nth-child(1)>span::after {
-  content: '长篇小说连载' !important;
-}
-li.categoryBar-list-item:nth-child(2)>span::after {
   content: '杂谈教程' !important;
 }
-li.categoryBar-list-item:nth-child(3)>span::after {
-  content: '玩转Win10' !important;
-}
-li.categoryBar-list-item:nth-child(4)>span::after {
+li.categoryBar-list-item:nth-child(2)>span::after {
   content: 'Hexo部署教程' !important;
 }
-li.categoryBar-list-item:nth-child(5)>span::after {
+li.categoryBar-list-item:nth-child(3)>span::after {
   content: '个人日记' !important;
-}
-li.categoryBar-list-item:nth-child(6)>span::after {
-  content: '诗词歌赋' !important;
 }
 li.categoryBar-list-item {
   width: 32.3% !important;
@@ -8597,4 +8588,33 @@ div.timenode .meta:after {
 }
 [data-theme="dark"] #page-header::before {
   background: transparent !important;
+}
+/*哔哩哔哩视频适配*/
+.bilibili {
+  position: relative;
+  width: 100%;
+}
+@media only screen and (max-width: 767px) {
+  .bilibili {
+    height: 15em;
+    max-width: 25em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .bilibili {
+    height: 20em;
+    max-width: 30em;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .bilibili {
+    height: 30em;
+    max-width: 40em;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .bilibili {
+    height: 40em;
+    max-width: 50em;
+  }
 }
